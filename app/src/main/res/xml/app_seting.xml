@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:layout_width="match_parent"
+        android:gravity="start"
+        android:title="setting"
+        app:iconSpaceReserved="false">
+        <PreferenceCategory
+            android:gravity="fill"
+            android:title="Language"
+            app:iconSpaceReserved="false">
+            <Preference
+                android:gravity="fill"
+                android:key="setting_locale"
+                android:summary="Change Device language"
+                android:title="Change Language"
+                app:iconSpaceReserved="false" />
+        </PreferenceCategory>
+    </PreferenceCategory>
+</PreferenceScreen>
